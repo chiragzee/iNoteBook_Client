@@ -18,6 +18,7 @@ const Login = (props) => {
   const [credentials, setCredentials] = useState({ email: '', password: '' });
   const navigate = useNavigate();
   const host = 'https://inotebook-server-pp25.onrender.com';
+  // const host = 'http://localhost:5000';
 
   const handleSubmit = async (e) => {
     e.preventDefault();
